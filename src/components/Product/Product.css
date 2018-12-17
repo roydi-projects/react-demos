@@ -43,3 +43,18 @@
 .product-delete-btn {
     background-color: red;
 }
+
+.product-delete-btn:hover, .product-delete-btn:active {
+    box-shadow: 0 0 30px -2px #ff4275;
+    background-color: red;
+}
+
+
+.product-edit-btn {
+    background-color: orange;
+}
+
+.product-edit-btn:hover, .product-edit-btn:active {
+        box-shadow: 0 0 30px -2px #ff6e42;
+        background-color: orange;
+}
