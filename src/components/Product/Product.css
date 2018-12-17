@@ -1,0 +1,45 @@
+.product {
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 3px 11px -5px rgba(0, 0, 0, 0.6);
+    border-radius: 0.3vw;
+    background-color: #ffffff;
+    border: 0.1vw solid transparent;
+}
+
+.product-image-container {
+    padding: 5%;
+    max-height: 30%;
+    max-width: 100%;
+    text-align: center;
+}
+
+.product-image {
+    height: 100%;
+    width: 50%;
+}
+
+.product-name {
+    padding: 3%;
+}
+
+.product-quantity {
+    padding: 3%;
+}
+
+.product-price {
+    padding: 3%;
+}
+
+.product-actions {
+    padding: 3%;
+    display: flex;
+}
+
+.product-buy-btn, .product-delete-btn, .product-edit-btn {
+    margin: 4px;
+}
+
+.product-delete-btn {
+    background-color: red;
+}

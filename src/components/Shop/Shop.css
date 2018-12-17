@@ -1,0 +1,13 @@
+.shop {
+    margin-left: 3%;
+}
+
+.products-container {
+    width: 100%;
+}
+
+.product-container {
+    width: 14em;
+    display: inline-block;
+    margin: 10px;
+}
